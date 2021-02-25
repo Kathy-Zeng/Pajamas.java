@@ -98,11 +98,11 @@ class PajamasPanel extends JPanel
 	public void drawGrid(Graphics g)
 	{
 		g.setColor(Color.LIGHT_GRAY);
-		for(int i = 0; i <= 640; i += 20)
+		for(int j = 0; j <= 640; j += 20) // draws vertical lines
 		{
 			g.drawLine(i, 0, i, 440);
 		}
-		for(int i = 0; i <= 440; i += 20)
+		for(int i = 0; i <= 440; i += 20) // draws horizontal lines
 		{
 			g.drawLine(0, i, 640, i);
 		}
