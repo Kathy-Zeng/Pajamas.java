@@ -100,7 +100,7 @@ class PajamasPanel extends JPanel
 		g.setColor(Color.LIGHT_GRAY);
 		for(int j = 0; j <= 640; j += 20) // draws vertical lines
 		{
-			g.drawLine(i, 0, i, 440);
+			g.drawLine(j, 0, j, 440);
 		}
 		for(int i = 0; i <= 440; i += 20) // draws horizontal lines
 		{
